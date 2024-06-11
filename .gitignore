@@ -1,6 +1,17 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
 # C files
 a.out
 
 # Flex files
 *.yy.c
+*.tab.c
+*.tab.h
 
