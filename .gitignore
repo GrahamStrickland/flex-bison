@@ -1,3 +1,6 @@
-# C Files
+# C files
 a.out
+
+# Flex files
+*.yy.c
 
