@@ -14,7 +14,7 @@
 [ \t]   { /* ignore whitespace */ }
 "("     { return OP; }
 ")"     { return CP; }
-"//".*  /* ignore comments */
+"//".*  { /* ignore comments */ }
 .       { printf("Mystery character %c\n", *yytext); }
 %%
 
