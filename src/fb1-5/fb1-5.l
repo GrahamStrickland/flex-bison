@@ -17,4 +17,3 @@
 "//".*  { /* ignore comments */ }
 .       { printf("Mystery character %c\n", *yytext); }
 %%
-

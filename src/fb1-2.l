@@ -7,4 +7,3 @@
 "conservative" { printf("liberal"); }
 . { printf("%s", yytext); }
 %%
-
