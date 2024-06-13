@@ -15,3 +15,5 @@ a.out
 *.tab.c
 *.tab.h
 
+# VSCode files
+*.code-workspace
